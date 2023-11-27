@@ -75,5 +75,5 @@ Lists all the dependencies necessary for running the project. You can use this t
 
 ## Support
 
-For support, email me at vibhuraj2002@gmail.com.
+For support or queries, email me at vibhuraj2002@gmail.com.
 
