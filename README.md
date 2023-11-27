@@ -57,11 +57,11 @@ Lists all the dependencies necessary for running the project. Use this to set up
 
 ### Accuracy Graph for Vision Transformer
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/VibhuRaj01/From-Convolution-to-Attention/blob/main/Img/ViT%20annuracy.JPG)
 
 ### Accuracy Graph for CNN
 
-![App Screenshot](https://github.com/VibhuRaj01/From-Convolution-to-Attention/blob/main/Img/epoch_accuracy%20(1).png)
+![App Screenshot](https://github.com/VibhuRaj01/From-Convolution-to-Attention/blob/main/Img/CNN%20annuracy.JPG)
 ## Support
 
 For support, email me at vibhuraj2002@gmail.com.
