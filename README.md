@@ -59,12 +59,16 @@ Lists all the dependencies necessary for running the project. You can use this t
 
 ![App Screenshot](https://github.com/VibhuRaj01/From-Convolution-to-Attention/blob/main/Img/ViT%20accuracy.JPG)
 🔵-Traning Data
+
 🟠-Validation Data
+
 ### Accuracy Graph for CNN
 
 ![App Screenshot](https://github.com/VibhuRaj01/From-Convolution-to-Attention/blob/main/Img/CNN%20accuracy.JPG)
 🔴-Training Data
+
 🔵-Validation Data
+
 ## Support
 
 For support, email me at vibhuraj2002@gmail.com.
