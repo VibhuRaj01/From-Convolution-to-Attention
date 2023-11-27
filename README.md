@@ -61,7 +61,7 @@ Lists all the dependencies necessary for running the project. Use this to set up
 
 ### Accuracy Graph for CNN
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/VibhuRaj01/From-Convolution-to-Attention/blob/main/Img/epoch_accuracy%20(1).png)
 ## Support
 
 For support, email me at vibhuraj2002@gmail.com.
