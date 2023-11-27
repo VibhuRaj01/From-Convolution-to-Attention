@@ -61,7 +61,7 @@ Lists all the dependencies necessary for running the project. Use this to set up
 
 ### Accuracy Graph for CNN
 
-![App Screenshot](https://github.com/VibhuRaj01/From-Convolution-to-Attention/blob/main/Img/CNN%20annuracy.JPG)
+![App Screenshot](https://github.com/VibhuRaj01/From-Convolution-to-Attention/blob/main/Img/CNN%20accuracy.JPG)
 ## Support
 
 For support, email me at vibhuraj2002@gmail.com.
