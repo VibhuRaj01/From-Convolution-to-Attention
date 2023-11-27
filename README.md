@@ -16,20 +16,20 @@ Leverages attention mechanisms for feature extraction, showcasing the shift from
 3. #### run.py 🏃‍♂️
 The heart of the project that initiates model training.
 Compares the performance of the ViT model against a baseline CNN model.
-Evaluates and records key metrics to understand the efficacy of attention-based approaches.
+Evaluate and record key metrics to understand the efficacy of attention-based approaches.
 
 4. #### CNN.py 🔄
 Implements a Convolutional Neural Network (CNN) for benchmarking purposes.
-Serves as a reference point to highlight the advantages of the Vision Transformer.
+It serves as a reference point to highlight the advantages of the Vision Transformer.
 
 5. #### hyperparameters.json ⚙️
 Contains a JSON file specifying hyperparameters for easy configuration and experimentation.
 
 6. #### Data Folder 📁
-Contains two folders named 'vehicles' and 'non-vehicles' which contains the images of the dataset.
+Contains two folders named 'vehicles' and 'non-vehicles' which contain the dataset's images.
 
 7. #### Requirement.txt 🛠️
-Lists all the dependencies necessary for running the project. Use this to set up your environment.
+Lists all the dependencies necessary for running the project. You can use this to set up your environment.
 
 
 
