@@ -1,7 +1,7 @@
 
 # From Convolution to Attention
 
-This project focuses on training a Vision Transformer (ViT) on a specialized road dataset. The dataset is meticulously curated to include images with and without cars, making it a valuable resource for tasks related to road scene analysis. Vision Transformers have proven to be highly effective in various computer vision tasks, and this project harnesses their power to detect and understand the presence of cars on roads.
+This project centres around training a Vision Transformer (ViT) using an image dataset focused on skin images for discerning between malignant and benign cancers. The dataset is carefully curated to encompass various skin images, aiding in tasks of dermatological analysis. Vision Transformers have exhibited significant effectiveness in diverse computer vision endeavours, and this project leverages their capabilities to detect and differentiate between malignant and benign skin conditions in images.
 
 ## Structure:
 
@@ -75,5 +75,5 @@ Lists all the dependencies necessary for running the project. You can use this t
 
 ## Support
 
-For support or queries, email me at vibhuraj2002@gmail.com.
+For support or queries, please email me at vibhuraj2002@gmail.com.
 
