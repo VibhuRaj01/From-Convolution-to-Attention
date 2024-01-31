@@ -34,8 +34,8 @@ def create_input_data(data):
     return X_train, X_test, y_train, y_test
 
 #Set the path to dataset directories
-categories=['non-vehicles','vehicles']
-dataset_path=os.path.join('data')
+categories=['malignant', 'benign']
+dataset_path=r'path_to_data_folder'
 
 data = data_preprocess(categories, dataset_path)
 print(len(data))
