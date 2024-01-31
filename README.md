@@ -26,7 +26,7 @@ It serves as a reference point to highlight the advantages of the Vision Transfo
 Contains a JSON file specifying hyperparameters for easy configuration and experimentation.
 
 6. #### Data Folder 📁
-Contains two folders named 'vehicles' and 'non-vehicles' which contain the dataset's images.
+Contains two folders named 'benign' and 'malignant' which contain the dataset's images.
 
 7. #### Requirement.txt 🛠️
 Lists all the dependencies necessary for running the project. You can use this to set up your environment.
