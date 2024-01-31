@@ -9,19 +9,19 @@ for gpu in gpus:
 print(tf.config.list_physical_devices('GPU'))
 
 model= tf.keras.Sequential()
-model.add(layers.Conv2D(16,(5,5), activation='relu'))
+model.add(layers.Conv2D(16,(3,3), activation='relu'), input_shape= (150,150,3))
 model.add(layers.MaxPooling2D(2,2))
-model.add(layers.Conv2D(32,(5,5), activation='relu'))
+model.add(layers.Conv2D(32,(3,3), activation='relu'))
 model.add(layers.MaxPooling2D(2,2))
-model.add(layers.Conv2D(32,(5,5), activation='relu'))
+model.add(layers.Conv2D(32,(3,3), activation='relu'))
 model.add(layers.MaxPooling2D(2,2))
 model.add(layers.Flatten())
 model.add(layers.Dense(units=1024 ,activation='relu'))
 model.add(layers.Dense(units=128 ,activation='relu'))
 model.add(layers.Dense(units=2,activation='softmax'))
 
-model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits = True),
+model.compile(loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits = False),
               optimizer='adam',
               metrics=['accuracy'])
 model.build(X_train.shape)
-hist=model.fit(X_train,y_train, batch_size=16, epochs=2, validation_data=(X_test,y_test))
+hist=model.fit(X_train,y_train, batch_size=16, epochs=100, validation_data=(X_test,y_test))
